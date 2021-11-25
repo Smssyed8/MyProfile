@@ -700,6 +700,7 @@ html {
   padding-bottom: 30px;
 }
 
+
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
@@ -717,9 +718,14 @@ html {
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.resume {
   padding-left: 20px;
   text-align: justify;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+  text-align: left;
 }
 
 .resume .resume-item ul li {
