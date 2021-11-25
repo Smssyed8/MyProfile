@@ -30,7 +30,7 @@ function Resume() {
         </Row>
          <Row style={{ justifyContent: "center", position: "relative" }}>
          <Col md={9} className="resume-center">
-            <h3 className="resume-title">Required details in short</h3>
+            <h3 className="resume-head">Required details in short</h3>
             <Resumecontent
               title="Total Years of experience"
               content={["6 years of Experience in Software Development following Agile.",
@@ -43,8 +43,14 @@ function Resume() {
                "Spring Boot and microservices -> 2 years",
                "Database/PlSql/Sql -> 3 years",
                "RestFul Api -> 3 years",
+               "",
                "Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template."
                 ]} />   
+                <Resumecontent
+              title="My Details"
+              content={[ "Have done Bachelor of Engineering in Computer Science - 2015 passed"
+              ]}
+            /> 
              <Resumecontent
               title="Education and passed year"
               content={[ "Have done Bachelor of Engineering in Computer Science - 2015 passed"
@@ -54,7 +60,7 @@ function Resume() {
         </Row>
        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-head">Experience</h3>
             <Resumecontent
               title="White Clarke acquired by IDS infotech and now renamed as Solifi  "
               date="Jan 2020 - Present"
@@ -67,7 +73,7 @@ function Resume() {
             />
              </Col>
                <Col md={6} className="resume-right">
-            <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-head">Experience</h3>
             <Resumecontent
               title="Arisglobal is the biggest and leading mid tier life sciences Product development company."
               date="2015 – 2019"
@@ -81,10 +87,11 @@ function Resume() {
             />
              </Col>
         </Row>
-       <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Col md={6} className="resume-center">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
+
+         <Row style={{ justifyContent: "center", position: "relative" }}>
+         <Col md={9} className="resume-center">
+            <h3 className="resume-head">Education</h3>
+              <Resumecontent
               title="Bachelor of Engineering in Computer Science"
               date="2015"
               content={["Pestim Shimoga, affiliated to Visvesvaraya Technological University Belgaum" ]}
@@ -94,22 +101,24 @@ function Resume() {
               content={[
                 "Please find it on Linkedin"
               ]}
-            />
+            />      
           </Col>
         </Row>
+
          <Row style={{ justifyContent: "center", position: "relative" }}>
-         <Col md={6} className="resume-center">
-            <h3 className="resume-title">SkillSet</h3>
-            <Resumecontent
+         <Col md={9} className="resume-center">
+            <h3 className="resume-head">SkillSet</h3>
+               <Resumecontent
               title="Main Skills"
               content={["Java, Java 8, J2EE, JavaScript. Oracle SQL, PostgreSQL, MongoDB, Restful Webservices." ]}
             />
             <Resumecontent
               title="Also having knowledge on, but not prepared for interview"
               content={["Nodejs, Apache Camel, Apache ActiveMQ, Spring Boot, Microservices, GitHub, Soap, Docker, Birt Report, Velocity Template, Html, Analytics, Design Implementation, Algorithm design, Frameworks, Drools, Algo, Junit Testing, Sonar, Maven, Jira, Linux, Motivated, flexible."]}
-            />           
+            />     
           </Col>
         </Row>
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />&nbsp;Get Résumé
