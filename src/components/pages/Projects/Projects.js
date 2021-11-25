@@ -29,8 +29,8 @@ function Projects() {
             <ProjectCard
               imgPath={cloudio}
               isBlog={false}
-              title="Cloudio"
-              description="Cloudio is a virtual phone system for small businesses. With an easy in-app setup you'll get a landline phone number. Calls made to this number will be received on your mobile phone.Easily invite your co-workers and setup the preferred behavior for incoming calls."
+              title="LsPublish"
+              description=""
               link=""
             />
           </Col>
@@ -39,13 +39,8 @@ function Projects() {
             <ProjectCard
               imgPath={qring}
               isBlog={false}
-              title="Qring WebCall"
-              description="With QRing you always have control over your valuable items. Our free app makes it easy for you to get in touch with the finder of your lost items or runaway pets.That is how it works
-              ,Attach a QRing sticker or tag to your valuables or, for example, to your pet's collar.
-              ,Add the item to the app.
-              ,Done . What if I lose the item?
-              - As soon as the finder scans the QRing sticker or tag, you will immediately receive a notification in the app where you immediately see at which location the item was just scanned.
-              - The finder can then send you a message or call and the finder will never see your details. The finder does not need the QRing app for this."
+              title="Susar"
+              description=""
               link=""
             />
           </Col>

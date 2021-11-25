@@ -7,9 +7,8 @@ import axios from "axios";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const pdf = 'https://drive.google.com/file/d/1MRzBBjPgMvcEN_PAINhnNAWlD4_YUq77/view?usp=sharing'
-
-  
+  const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
+  const calendly = 'https://calendly.com/s-muazzam-siddiqhi'
 
   return (
     <Container fluid className="resume-section">
@@ -20,37 +19,57 @@ function Resume() {
             <AiOutlineDownload />
             &nbsp;Get Résumé
           </Button>
+           <Button variant="primary" href={calendly} target="_blank">
+            <AiOutlineDownload />
+            &nbsp;My Calendar
+          </Button>
+        </Row>
+         <Row style={{ justifyContent: "center", position: "relative" }}>
+         <Col md={6} className="resume-right">
+            <h3 className="resume-title">Required details in short</h3>
+            <Resumecontent
+              title="Total Years of experience"
+              content={["6 years of Experience in Software Development following Agile.",
+              "Worked in Arisglobal for 4 years, White clarke now called Solifi for 2 years"
+              ]}
+            />
+            <Resumecontent
+              title="Relevant years"
+              content={["Java 1.7, 1.8 -> 6 years",
+               "Spring Boot and microservices -> 2 years",
+               "Database/PlSql/Sql -> 3 years",
+               "RestFul Api -> 3 years",
+               "Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template.",
+                />   
+             <Resumecontent
+              title="Education and passed year"
+              content={[ "Have done Bachelor of Engineering in Computer Science - 2015 passed"
+              ]}
+            />        
+          </Col>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Ask-fast Pvt. Ltd - Frontend Developer  "
-              date="October 2020 - Present"
+              title="White Clarke acquired by IDS infotech and now renamed as Solifi  "
+              date="Jan 2020 - Present"
               content={[
-                "Developed the whole  web app  using ReactJS  & Redux for Cloudio. ",
-                " Developed two out of six pages using React for a business management application for Qring.",
-                " Single handedly led the development of the frontend development",
-                "  Tech stack : HTML, CSS, ReactJs, Material UI, Redux, Redux Saga  "]}
+                "Projects: Core platform.",
+        "Changed Restful Webservices integration to Amazon SQS Integration to use the producer-consumer methodology. UI changes and validations on basic ReactsJs",
+        "Part of, Platform Development, globally distributed team with startup environment, Achieved validation through drools rule engine. Parsed JSON to browser UI on Node framework.",
+        "Have contributed for the Test Automation of project on selenium. "
+          ]}
             />
             <Resumecontent
-              title="Xelpmoc Design and Tech Ltd - Software Engineer"
-              date="August 2019 - October 2020"
+              title="Arisglobal is the biggest and leading mid tier life sciences Product development company."
+              date="2015 – 2019"
               content={[
-                "Led the team of 3 developers and responsible for design and development of the frontend part of the application .",
-                "Implemented Lazy loading into the application that reduced the initial loading time and made it 40% faster on the browser .",
-                "Using RxJS (Switchmap Operator),I prevented unnecessary apirequests to the search route and made the application 15% more efficient",
-                " Designed responsive screens from wireframe and figma designs using HTML,CSS",
-                "Implemented signature pad and barcode scanner that makes the application more user friendly.",
-                "Tech stack : HTML, CSS, Angular 7,Observables(RxJs)"
-              ]}
-            />
-            <Resumecontent
-              title="Groveus Informatics Pvt. Ltd —UI & Mobile App Developer"
-              date="FEBRUARY 2018 - FEBRUARY 2019"
-              content={[
-               " Developed student management android application called Edubios using Ionic that serves 10+ educational sectors like schools and colleges with 5000+ students .",
-                " Responsible for ideation to deployemnt of the Android app."
+                "Projects: Clinical, Susar, Publisher, Siteportal, DMS, RIMS integration, CTMS.",
+                "Implemented API integrations via Restful Webservices architecture, WSDL, microservices. Created Efficient Birt reports. Mentored 3 developers. Developed customer focus Efficient validator for rules defined by FDA, Hyperlinks and bookmarks for documents on Pdfjs. ",
+                "Implemented web edit feature for pdf document similar to Adobe. Created Esign feature, Document management web technology. Increased the code maintainability and flexibility by different data structures, algorithms, design patterns and Multithreading.",
+                "Conceptualized POCs for Risk-Based Monitoring by the rule engine fundamentals, hybrid application. Technical leadership in System Design, the business logic of Pdf edit and rule validation. Worked with globally distributed teams on distributed systems in a collaborative way. Excellent interpersonal skills, good with people, ability to negotiate"
+              
               ]}
             />
              
@@ -58,30 +77,29 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Pesto - Engineering Fellow"
-              date="2020"
-              content={["Pesto Remote Batch" ]}
+              title="Bachelor of Engineering in Computer Science"
+              date="2015"
+              content={["Pestim Shimoga, affiliated to Visvesvaraya Technological University Belgaum" ]}
             />
             <Resumecontent
-              title="Computer Application(MCA)"
-              date="2017 - 2019"
-              content={["Siliguri Institute Of Technology(SIT)"]}
-            />
-            <Resumecontent
-              title="Bachelor of science  in Computer Science(Honours) "
-              date="2014  - 2017"
-              content={["Siliguri College"]}
-            />
-            <h3 className="resume-title">Certifications</h3>
-            <Resumecontent
-              title=""
+              title="Certifications"
               content={[
-                `Certified Blockchain Expert™`,
-                `Issuing authority - Blockchain Council`,
-                "Credential ID - 15503030",
-                "Date of Certification - March 2020",
+                "Please find it on Linkedin"
               ]}
             />
+          </Col>
+        </Row>
+         <Row style={{ justifyContent: "center", position: "relative" }}>
+         <Col md={6} className="resume-right">
+            <h3 className="resume-title">SkillSet</h3>
+            <Resumecontent
+              title="Main Skills"
+              content={["Java, Java 8, J2EE, JavaScript. Oracle SQL, PostgreSQL, MongoDB, Restful Webservices." ]}
+            />
+            <Resumecontent
+              title="Also having knowledge on, but not prepared for interview"
+              content={["Nodejs, Apache Camel, Apache ActiveMQ, Spring Boot, Microservices, GitHub, Soap, Docker, Birt Report, Velocity Template, Html, Analytics, Design Implementation, Algorithm design, Frameworks, Drools, Algo, Junit Testing, Sonar, Maven, Jira, Linux, Motivated, flexible."]}
+            />           
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>

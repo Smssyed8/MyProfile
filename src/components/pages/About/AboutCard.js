@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
           A self-motivated and enthusiastic web developer with a deep interest in 
-          <span className="purple"> JavaScript</span>. To work in the Software industry with modern web technologies
+          <span className="purple"> Java, Spring Boot, Microservices</span>. To work in the Software industry with modern web technologies
            of different local & multinational Software companies of India 
            and grow rapidly with increasing responsibilities.
            <br/><br/>

@@ -6,7 +6,7 @@ import springboot from '../../../Assets/spring-boot.png';
 import microservices from '../../../Assets/microservices.jpg';
 import sqldev from '../../../Assets/sql-dev.jpg';
 import sqlserver from '../../../Assets/sql-server.jpg';
-import rest from '../../../Assets/restApi.png';
+import restApi from '../../../Assets/restApi.png';
 import angular from '../../../Assets/languages/angular.png';
 import aws from '../../../Assets/languages/aws-logo.png';
 import bootstrap from '../../../Assets/languages/Bootstrap.png';
