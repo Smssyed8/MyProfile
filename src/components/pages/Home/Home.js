@@ -13,7 +13,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Home() {
  const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
-  const pdf = 'https://calendly.com/s-muazzam-siddiqhi'
+  const cal = 'https://calendly.com/s-muazzam-siddiqhi'
 return (
     <section>
       <Container fluid className="home-section" id="home">
