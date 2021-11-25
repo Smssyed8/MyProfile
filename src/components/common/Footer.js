@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Avijeet Dey</h3> 
+          <h3>Designed and Developed by Syed Ms</h3> 
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/AvijeetDey96/"
+                href="https://github.com/Smssyed8/"
                 style={{ color: "white" }}
               >
                 <AiFillGithub />
@@ -32,7 +32,7 @@ function Footer() {
             
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/avijeet-dey-2ab654164"
+                href="https://www.linkedin.com/in/syedmuazzamsiddiqhi/"
                 style={{ color: "white" }}
               >
                 <FaLinkedinIn />
@@ -40,7 +40,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/de.avijeet/"
+                href="https://www.instagram.com/iamsyedms/"
                 style={{ color: "white" }}
               >
                 <AiFillInstagram />
