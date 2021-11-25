@@ -1,6 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import react from '../../../Assets/languages/react.png';
+import java from '../../../Assets/java.png';
+import spring-boot from '../../../Assets/spring-boot.png';
+import microservices from '../../../Assets/microservices.jpg';
+import sql-dev from '../../../Assets/sql-dev.jpg';
+import sql-server from '../../../Assets/sql-server.jpg';
+import rest from '../../../Assets/restApi.png';
 import angular from '../../../Assets/languages/angular.png';
 import aws from '../../../Assets/languages/aws-logo.png';
 import bootstrap from '../../../Assets/languages/Bootstrap.png';
@@ -33,32 +39,8 @@ function Toolstack() {
       logo: react,
     },
     {
-      name: 'Angular',
-      logo: angular,
-    },
-    {
-      name: 'Ionic',
-      logo: ionic,
-    },
-    {
-      name: 'React Native',
-      logo: react,
-    },
-    {
-      name: 'Redux',
-      logo: redux,
-    },
-    {
-      name: 'Typescript',
-      logo: ts,
-    },
-    {
       name: 'Javascript',
       logo: js,
-    },
-    {
-      name: 'Material UI',
-      logo: material,
     },
     {
       name: 'BootStrap',
@@ -71,34 +53,38 @@ function Toolstack() {
     {
       name: 'HTML',
       logo: html,
-    },
+    }
 
   ];
   const BackendLanguages = [
     {
-      name: 'Node js',
-      logo: node,
+      name: 'Java 1.7, 1.8',
+      logo: java,
     },
     {
-      name: 'Express js',
-      logo: express,
+      name: 'Spring Boot',
+      logo: spring-boot,
+    },
+    {
+      name: 'PlSql',
+      logo: sql-dev,
     },
     {
       name: 'mongoDB',
       logo: mongo,
     },
     {
-      name: 'GraphQl',
-      logo: graphql,
+      name: 'RestFul web Api',
+      logo: restApi,
     },
     {
       name: 'Mysql',
       logo: mysql,
     },
     {
-      name: 'AWS',
-      logo: aws,
-    },
+      name: 'Microservices',
+      logo: microservices,
+    }
   ]
   const tools = [
     {
@@ -116,10 +102,6 @@ function Toolstack() {
     {
       name: 'Bit bucket',
       logo: bitbucket,
-    },
-    {
-      name: 'Trello',
-      logo: trello,
     },
     {
       name: 'Netlify',
