@@ -14,7 +14,7 @@ function Techstack() {
   const comfortable = ['Java 1.7, 1.8', 'Spring Boot', 'Microservices', 'Oralce Plsql', 'Rest Api'];
   const familiar = ['Mongodb', 'nodeJs', 'React', 'Soap', 'Wsdl', 'PostgresSql', 'drools', 'cucumber', 'Selenium', 'Automation', 'JUnits',
   'Mockito', 'VM templates', 'Api Integration', 'DataStructures', 'Algorithms', 'Design Pattern'];
-  const tools = ['VS Code','Github', 'Svn', 'Birt reports' 'Chrome Dev Tool','Netlify','Bit bucket','Notepad++'];
+  const tools = ['VS Code','Github', 'Svn', 'Birt reports', 'Chrome Dev Tool','Netlify','Bit bucket','Notepad++'];
   return (
     <Row style={{ justifyContent: "center", padding: "50px 0 50px 0" }}>
       <Col xs={12} md={4} >
