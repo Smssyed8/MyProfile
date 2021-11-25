@@ -39,8 +39,8 @@ function Resume() {
                "Spring Boot and microservices -> 2 years",
                "Database/PlSql/Sql -> 3 years",
                "RestFul Api -> 3 years",
-               "Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template.",
-                />   
+               "Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template."
+                ]} />   
              <Resumecontent
               title="Education and passed year"
               content={[ "Have done Bachelor of Engineering in Computer Science - 2015 passed"
