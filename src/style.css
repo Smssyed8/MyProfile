@@ -666,6 +666,7 @@ html {
 }
 
 .resume-center {
+    text-align: left;
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
@@ -682,6 +683,7 @@ html {
   }
 }
 .resume .resume-title {
+  text-align: center;
   font-size: 2em;
   font-weight: 700;
   padding-top: 30px;
