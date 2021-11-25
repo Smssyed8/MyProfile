@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <ImPointRight /> <span className="purple"> Total Years of experience  </span>
+            <ImPointRight /> <span className="purple"> Total Years of experience  </span><br/>
             6 years of Experience in Software Development following Agile.<br/>
             Worked in Arisglobal for 4 years, White clarke now called Solifi for 2 years<br/>
-            <ImPointRight /><span className="purple"> Relevant years</span>
+            <ImPointRight /><span className="purple"> Relevant years</span><br/>
             Java 1.7, 1.8 -> 6 years<br/>
             Spring Boot and microservices -> 2 years<br/>
             Database/PlSql/Sql -> 3 years<br/>
