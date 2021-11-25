@@ -673,11 +673,13 @@ html {
 
 @media (max-width: 767px) {
   .resume-left {
+    text-align: left;
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 
   .resume-right {
+    text-align: left;
     padding-right: 15px !important;
     padding-left: 15px !important;
   }

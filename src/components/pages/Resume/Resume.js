@@ -39,18 +39,21 @@ function Resume() {
             />
             <Resumecontent
               title="Relevant years"
-              content={["Java 1.7, 1.8 -> 6 years",
-               "Spring Boot and microservices -> 2 years",
-               "Database/PlSql/Sql -> 3 years",
-               "RestFul Api -> 3 years",
-               "",
+              content={["Java 1.7, 1.8  ->  6 years",
+               "Spring Boot and microservices  ->  2 years",
+               "Database/PlSql/Sql  ->  3 years",
+               "RestFul Api  ->  3 years",
+               "################################",
                "Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template."
                 ]} />   
                 <Resumecontent
               title="My Details"
               content={[ "Email: s.muazzam.siddiqhi@gmail.com",
-              "phone: +918951631056",
-              "Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm."
+              "Phone: +918951631056",
+              "Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm.",
+              "Resume:  Latest attached here, please download",
+              "Need more details?: Request you to drop a mail",
+              "I am serving notice period: Last working day is Jan 19th 2022",
               ]}
             /> 
              <Resumecontent
@@ -64,7 +67,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-head">Experience</h3>
             <Resumecontent
-              title="White Clarke acquired by IDS infotech and now renamed as Solifi  "
+              title="White Clarke Group acquired by IDS infotech and now renamed as Solifi  "
               date="Jan 2020 - Present"
               content={[
                 "Projects: Core platform.",
