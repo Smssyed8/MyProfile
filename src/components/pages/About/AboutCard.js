@@ -32,13 +32,19 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm.
             </li>
+               <li className="about-activity">
+              <ImPointRight /> I am serving notice period: Last working day is Jan 19th 2022 </li>
+          <li className="about-activity">
+              <ImPointRight /> Current Work Location and native: Mysore </li>
              <li className="about-activity">
+              <ImPointRight /> Preferred Location: Bangalore</li>
+             
+<li className="about-activity">
               <ImPointRight /> Resume: Latest attached here, please download </li>
              <li className="about-activity">
               <ImPointRight /> Need more details?: Request you to drop a mail </li>
-               <li className="about-activity">
-              <ImPointRight /> I am serving notice period: Last working day is Jan 19th 2022 </li>
-          </ul>
+             
+</ul>
         </blockquote>
 
 
