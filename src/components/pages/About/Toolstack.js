@@ -2,10 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import react from '../../../Assets/languages/react.png';
 import java from '../../../Assets/java.png';
-import spring-boot from '../../../Assets/spring-boot.png';
+import springboot from '../../../Assets/spring-boot.png';
 import microservices from '../../../Assets/microservices.jpg';
-import sql-dev from '../../../Assets/sql-dev.jpg';
-import sql-server from '../../../Assets/sql-server.jpg';
+import sqldev from '../../../Assets/sql-dev.jpg';
+import sqlserver from '../../../Assets/sql-server.jpg';
 import rest from '../../../Assets/restApi.png';
 import angular from '../../../Assets/languages/angular.png';
 import aws from '../../../Assets/languages/aws-logo.png';
@@ -63,11 +63,11 @@ function Toolstack() {
     },
     {
       name: 'Spring Boot',
-      logo: spring-boot,
+      logo: springboot,
     },
     {
       name: 'PlSql',
-      logo: sql-dev,
+      logo: sqldev,
     },
     {
       name: 'mongoDB',
