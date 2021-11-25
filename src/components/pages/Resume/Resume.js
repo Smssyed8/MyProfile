@@ -48,7 +48,9 @@ function Resume() {
                 ]} />   
                 <Resumecontent
               title="My Details"
-              content={[ "Have done Bachelor of Engineering in Computer Science - 2015 passed"
+              content={[ "Email: s.muazzam.siddiqhi@gmail.com",
+              "phone: +918951631056",
+              "Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm."
               ]}
             /> 
              <Resumecontent
