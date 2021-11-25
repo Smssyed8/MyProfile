@@ -52,10 +52,8 @@ function Resume() {
             />        
           </Col>
         </Row>
-        <Row className="resume">
+       <Row style={{ justifyContent: "center", position: "relative" }}>
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
-              <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="White Clarke acquired by IDS infotech and now renamed as Solifi  "
@@ -68,7 +66,7 @@ function Resume() {
           ]}
             />
              </Col>
-              <Col md={6} className="resume-right">
+               <Col md={6} className="resume-right">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Arisglobal is the biggest and leading mid tier life sciences Product development company."
@@ -82,8 +80,8 @@ function Resume() {
               ]}
             />
              </Col>
-             
-          </Col>
+        </Row>
+        <Row className="resume">
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent

@@ -722,7 +722,7 @@ html {
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
+  width: 24;
   height: 16px;
   border-radius: 50px;
   left: -9px;
