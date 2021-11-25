@@ -81,8 +81,8 @@ function Resume() {
             />
              </Col>
         </Row>
-        <Row className="resume">
-          <Col md={6} className="resume-right">
+       <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Col md={6} className="resume-center">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="Bachelor of Engineering in Computer Science"
