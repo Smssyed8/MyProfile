@@ -104,7 +104,7 @@ return (
         </blockquote>
         </Card.Body>
         </Card>
-        </col>
+        </Col>
 
 
 
