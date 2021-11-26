@@ -22,7 +22,7 @@ return (
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7}  xs={12}  className="home-header">
+            <Col  xs={12}  className="home-header">
 
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There! <span className="wave">👋🏻</span>
@@ -68,7 +68,7 @@ return (
               
 
             </Col>
-    <Col md={7}  xs={12}  className="home-header">
+    <Col  xs={12}  className="home-header">
 <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">

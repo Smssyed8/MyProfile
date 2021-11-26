@@ -260,6 +260,7 @@ html {
 
 .home-header {
   padding-top: 30px !important;
+  max-width: 26.333333%;
 }
 
 .home-section {
