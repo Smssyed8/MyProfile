@@ -10,6 +10,8 @@ import Resume from '../Resume/Resume.js'
 import { DeveloperAnimation } from '../../../lotties/Lotties';
 import Tilt from "react-parallax-tilt";
 import { AiOutlineDownload } from "react-icons/ai";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
 
 function Home() {
  const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
