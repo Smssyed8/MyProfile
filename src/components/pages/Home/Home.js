@@ -102,6 +102,8 @@ return (
               <ImPointRight /> I am serving notice period: Last working day is Jan 19th 2022 </li>
           </ul>
         </blockquote>
+        </Card.Body>
+        </Card>
         </col>
 
 
