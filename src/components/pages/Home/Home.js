@@ -13,7 +13,8 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Home() {
  const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
-  return (
+  const cal = 'https://calendly.com/s-muazzam-siddiqhi'
+return (
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
@@ -39,6 +40,18 @@ function Home() {
                 <Button variant="primary" href={pdf} target="_blank">
                   <AiOutlineDownload /> 
                   &nbsp;Get Résumé
+                </Button>
+                </div>
+
+<br/>
+<div style={{ paddingLeft: 50, textAlign: "left" }} className="main-name">
+                <Type />
+                <br />
+                <br />
+                <br />
+                <Button variant="primary" href={cal} target="_blank">
+                  <AiOutlineDownload /> 
+                  &nbsp;My Calendar
                 </Button>
                 </div>
                

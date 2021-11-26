@@ -10,7 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             <ImPointRight /> <span className="purple"> Total Years of experience  </span><br/>
             6 years of Experience in Software Development following Agile.<br/>
-            Worked in Arisglobal for 4 years, White clarke now called Solifi for 2 years<br/>
+            Arisglobal : 4 years<br/>
+            White Clarke Group : 2 years<br/>
             <ImPointRight /><span className="purple"> Relevant years</span><br/>
             Java 1.7, 1.8 -> 6 years<br/>
             Spring Boot and microservices -> 2 years<br/>
@@ -31,13 +32,19 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm.
             </li>
+               <li className="about-activity">
+              <ImPointRight /> I am serving notice period: Last working day is Jan 19th 2022 </li>
+          <li className="about-activity">
+              <ImPointRight /> Current Work Location and native: Mysore </li>
              <li className="about-activity">
+              <ImPointRight /> Preferred Location: Bangalore</li>
+             
+<li className="about-activity">
               <ImPointRight /> Resume: Latest attached here, please download </li>
              <li className="about-activity">
               <ImPointRight /> Need more details?: Request you to drop a mail </li>
-               <li className="about-activity">
-              <ImPointRight /> I am serving notice period: Last working day is Jan 19th 2022 </li>
-          </ul>
+             
+</ul>
         </blockquote>
 
 
