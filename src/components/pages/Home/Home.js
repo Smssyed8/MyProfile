@@ -85,12 +85,12 @@ function Home() {
                     <p style={{ textAlign: "justify" }}>
                       <ImPointRight /> <span className="purple"> Total Years of experience  </span><br />
                       6 years of Experience in Software Development following Agile.<br />
-                      Worked in Arisglobal for 4 years, White clarke now called Solifi for 2 years<br />
+                      <br />
                       <ImPointRight /><span className="purple"> Relevant years</span><br />
-            Java 1.7, 1.8 -> 6 years<br />
-            Spring Boot and microservices -> 2 years<br />
-            Database/PlSql/Sql -> 3 years<br />
-            RestFul Api -> 3 years<br /><br />
+                      Java 1.7, 1.8 -`{'>'}` 6 years<br />
+                     Spring Boot and microservices -> 2 years<br />
+                      Database/PlSql/Sql -`{'>'}` 3 years<br />
+                      RestFul Api -`{'>'}` 3 years<br /><br />
                       ################################<br />
                       Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template.
                       <br /><br />
