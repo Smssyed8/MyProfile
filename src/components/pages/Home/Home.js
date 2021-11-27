@@ -63,7 +63,7 @@ function Home() {
                         &nbsp; My Calendar
                       </Button>
 
-                      <Button onClick={copyToClipboard}>Copy</Button>
+                      <Button onClick={() => window.clipboardData.setData("Text", 'Copy this text to clipboard')}>Copy</Button>
 
 
                     </div>
