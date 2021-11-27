@@ -38,7 +38,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong  > &nbsp;Syed Muazzam Siddiqhi</strong>
+                <strong  > &nbsp; Syed Muazzam Siddiqhi</strong>
 
               </h1>
 
@@ -48,22 +48,24 @@ function Home() {
                 <br />
                 <br />
                 <br />
-                <div class="buttons">
+                <Row>
+                  <div class="buttons">
 
-                  <div class="action_btn">
-                    <Button variant="primary" class="action_btn " href={pdf} target="_blank">
-                      <AiOutlineDownload />
-                      &nbsp;Get Résumé
-                    </Button>
-                    <br />
-                    <br />
-                    <Button variant="primary" class="action_btn " href={cal} target="_blank">
-                      <AiOutlineDownload />
-                      &nbsp;My Calendar
-                    </Button>
+                    <div class="action_btn">
+                      <Button variant="primary" class="action_btn " href={pdf} target="_blank">
+                        <AiOutlineDownload />
+                        &nbsp; Get Résumé
+                      </Button>
+
+                      <Button variant="primary" class="action_btn " href={cal} target="_blank">
+                        <AiOutlineDownload />
+                        &nbsp; My Calendar
+                      </Button>
+                    </div>
                   </div>
-                </div>
+                </Row>
               </div>
+
 
               <br />
 
@@ -124,13 +126,13 @@ function Home() {
 
         </Container>
 
-      </Container>
+      </Container >
 
       {/* <Home2 /> */}
-      <About />
+      < About />
       {/* <Projects /> */}
       {/* <Resume /> */}
-    </section>
+    </section >
   );
 }
 
