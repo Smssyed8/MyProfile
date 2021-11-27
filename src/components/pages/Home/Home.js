@@ -108,7 +108,6 @@ function Home() {
                       <ImPointRight /><span className="purple"> Personal Details</span>
                     </p>
                     <ul>
-                      <br />
                       <ImPointRight /><span className="purple"> Contact</span>
                       <li className="about-activity">
                         <ImPointRight /> Email: s.muazzam.siddiqhi @gmail.com
