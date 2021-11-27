@@ -20,7 +20,9 @@ function Home() {
   const dwn = 'https://docs.google.com/document/d/1XvIdphkNLPkICvHjXUbf2pneT9tc472I/edit?usp=sharing&ouid=112689532247814358148&rtpof=true&sd=true'
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid style={{
+        paddingLeft: 02
+      }} className="home-section" id="home">
         <Particle />
         <Container className="home-content">
 
@@ -65,7 +67,7 @@ function Home() {
                         &nbsp; My Calendar
                       </Button>
 
-                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5, paddingTop: 5 }} href={dwn} target="_blank">
+                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5, paddingTop: 9 }} href={dwn} target="_blank">
                         <AiOutlineDownload />
                         &nbsp; Download Below Details
                       </Button>
