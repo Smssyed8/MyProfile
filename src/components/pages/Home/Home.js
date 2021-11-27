@@ -57,17 +57,17 @@ function Home() {
                   <div class="buttons">
 
                     <div class="action_btn">
-                      <Button variant="primary" class="action_btn " style={{ paddingTop: 5 }} href={pdf} target="_blank">
+                      <Button variant="primary" class="action_btn " style={{ paddingTop: 5, marginTop: 8 }} href={pdf} target="_blank">
                         <AiOutlineDownload />
                         &nbsp; Get Résumé
                       </Button>
 
-                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5, paddingTop: 5 }} href={cal} target="_blank">
+                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5, paddingTop: 5, marginTop: 8 }} href={cal} target="_blank">
                         <AiOutlineDownload />
                         &nbsp; My Calendar
                       </Button>
 
-                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5, paddingTop: 9 }} href={dwn} target="_blank">
+                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5, paddingTop: 5, marginTop: 8 }} href={dwn} target="_blank">
                         <AiOutlineDownload />
                         &nbsp; Download Below Details
                       </Button>
