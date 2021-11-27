@@ -42,7 +42,8 @@ return (
 
               </h1>
 
-              <div style={{ paddingLeft: 50, textAlign: "left" }} className="main-name">
+            <div style={{ paddingLeft: 50, textAlign: "left" }} className="main-name">
+              <p> Scroll below and copy the details </p>
                 <Type />
                 <br />
                 <br />
@@ -51,19 +52,15 @@ return (
                   <AiOutlineDownload /> 
                   &nbsp;Get Résumé
                 </Button>
-                </div>
-
-<br/>
-<div style={{ paddingLeft: 50, textAlign: "left" }} className="main-name">
-                <Type />
                 <br />
                 <br />
-                <br />
-                <Button variant="primary" href={cal} target="_blank">
+               <Button variant="primary" href={cal} target="_blank">
                   <AiOutlineDownload /> 
                   &nbsp;My Calendar
                 </Button>
                 </div>
+
+<br/>
                
              
              
