@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import {MeditateAnimation} from '../../../lotties/Lotties';
+import { MeditateAnimation } from '../../../lotties/Lotties';
 import Tilt from "react-parallax-tilt";
 
 
@@ -16,23 +16,23 @@ function About() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-        <Col
+          <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <div className="developer-animation" >
 
-               <Tilt> <MeditateAnimation /></Tilt>
+              <Tilt> <MeditateAnimation /></Tilt>
             </div>
-           
-            
+
+
           </Col>
           <Col
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
+              paddingTop: "5px",
               paddingBottom: "50px",
             }}
           >
@@ -41,7 +41,7 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          
+
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
@@ -49,7 +49,7 @@ function About() {
 
         <Techstack />
 
-        
+
         <Toolstack />
 
         {/* <Github /> */}
