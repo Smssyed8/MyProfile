@@ -11,6 +11,7 @@ import { DeveloperAnimation } from '../../../lotties/Lotties';
 import Tilt from "react-parallax-tilt";
 import { AiOutlineDownload } from "react-icons/ai";
 import Card from "react-bootstrap/Card";
+import Copy from "../../common/Copy";
 import { ImPointRight } from "react-icons/im";
 
 function Home() {
@@ -61,6 +62,10 @@ function Home() {
                         <AiOutlineDownload />
                         &nbsp; My Calendar
                       </Button>
+
+                      <Button onClick={copyToClipboard}>Copy</Button>
+
+
                     </div>
                   </div>
                 </Row>
@@ -125,7 +130,7 @@ function Home() {
                         <li className="about-activity"><ImPointRight /> Arisglobal : 4 years</li>
                         <li className="about-activity"> <ImPointRight /> White Clarke Group, acquired by Ids group, now renamed to Solifi : 2 years</li>
                       </li>
-                      <ImPointRight /><span className="purple"> Skillset</span>
+                      <span className="purple"> Skillset</span>
                       <li className="about-activity">
                         <li className="about-activity"><ImPointRight /> Main Skills/Ready for interview : Java 1.7,8, Spring, Spring Boot, Microservices, Rest Api, Oracle Plsql, Design Patterns, Algorithms, DataStructures</li>
                         <li className="about-activity"><ImPointRight /> Also worked on but not prepared for Interview : Soap, Docker, Drools, Vm Template, Birt report, PostgreSql, MongoDb, Nodejs, React, Javascript</li>
