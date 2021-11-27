@@ -46,7 +46,7 @@ function Home() {
 
               <div style={{ paddingLeft: 50, textAlign: "left" }} className="main-name">
                 <p style={{ color: "white" }}> Scroll below and copy the details </p>
-                <p>Note: </p><span style={{ color: "white" }}>I may miss out call, you will get all HR details here,  please drop a mail </span>
+                <p>Note: <span style={{ color: "white" }}>I may miss out call, you will get all HR details here,  please drop a mail </span> </p>
                 <Type />
                 <br />
                 <br />
