@@ -122,8 +122,8 @@ function Home() {
                       </li>
                       <ImPointRight /><span className="purple"> Worked in</span>
                       <li className="about-activity">
-                        <ImPointRight /> Arisglobal : 4 years
-                        <ImPointRight /> White Clarke Group, acquired by Ids group, now renamed to Solifi : 2 years
+                        <li className="about-activity"><ImPointRight /> Arisglobal : 4 years</li>
+                        <li className="about-activity"> <ImPointRight /> White Clarke Group, acquired by Ids group, now renamed to Solifi : 2 years</li>
                       </li>
                       <ImPointRight /><span className="purple"> Skillset</span>
                       <li className="about-activity">
