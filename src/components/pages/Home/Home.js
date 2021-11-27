@@ -107,28 +107,28 @@ function Home() {
                         <ImPointRight /> Phone: +918951631056
                       </li>
 
-                      <ImPointRight /><span className="purple"> Education</span>
+                      <span className="purple"> Education</span>
                       <li className="about-activity">
-                        <ImPointRight /> Bachelor of Engineering in Computer Science - 2015 - 60%
-                        <ImPointRight /> 2nd PU - 2011 - 62%
-                        <ImPointRight /> 10th - 2009 - 93.92%
+                        <li className="about-activity"><ImPointRight /> Bachelor of Engineering in Computer Science - 2015 - 60%</li>
+                        <li className="about-activity"><ImPointRight /> 2nd PU - 2011 - 62%</li>
+                        <li className="about-activity"><ImPointRight /> 10th - 2009 - 93.92%</li>
                       </li>
-                      <ImPointRight /><span className="purple"> Location</span>
+                      <span className="purple"> Location</span>
                       <li className="about-activity">
-                        <ImPointRight /> Native and work location : Mysore
-                        <ImPointRight /> Ready to Relocate : yes
-                        <ImPointRight /> Preferred location : Anywhere outside India
-                        <ImPointRight /> Preferred location in India : Bangalore
+                        <li className="about-activity"><ImPointRight /> Native and work location : Mysore</li>
+                        <li className="about-activity"> <ImPointRight /> Ready to Relocate : yes</li>
+                        <li className="about-activity"><ImPointRight /> Preferred location : Anywhere outside India</li>
+                        <li className="about-activity"><ImPointRight /> Preferred location in India : Bangalore</li>
                       </li>
-                      <ImPointRight /><span className="purple"> Worked in</span>
+                      <span className="purple"> Worked in</span>
                       <li className="about-activity">
                         <li className="about-activity"><ImPointRight /> Arisglobal : 4 years</li>
                         <li className="about-activity"> <ImPointRight /> White Clarke Group, acquired by Ids group, now renamed to Solifi : 2 years</li>
                       </li>
                       <ImPointRight /><span className="purple"> Skillset</span>
                       <li className="about-activity">
-                        <ImPointRight /> Main Skills/Ready for interview : Java 1.7,8, Spring, Spring Boot, Microservices, Rest Api, Oracle Plsql, Design Patterns, Algorithms, DataStructures
-                        <ImPointRight /> Also worked on but not prepared for Interview : Soap, Docker, Drools, Vm Template, Birt report, PostgreSql, MongoDb, Nodejs, React, Javascript
+                        <li className="about-activity"><ImPointRight /> Main Skills/Ready for interview : Java 1.7,8, Spring, Spring Boot, Microservices, Rest Api, Oracle Plsql, Design Patterns, Algorithms, DataStructures</li>
+                        <li className="about-activity"><ImPointRight /> Also worked on but not prepared for Interview : Soap, Docker, Drools, Vm Template, Birt report, PostgreSql, MongoDb, Nodejs, React, Javascript</li>
                       </li>
                       <li className="about-activity">
                         <ImPointRight /> Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm.
