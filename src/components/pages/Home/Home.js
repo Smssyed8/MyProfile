@@ -45,8 +45,8 @@ function Home() {
               </h1>
 
               <div style={{ paddingLeft: 50, textAlign: "left" }} className="main-name">
-                <p style={{ color: "white" }}> Scroll below and copy the details </p><br />
-                <p>Note: </p><p style={{ color: "white" }}>I may miss out call, you will get all HR details here,  please drop a mail </p>
+                <p style={{ color: "white" }}> Scroll below and copy the details </p>
+                <p>Note: </p><span style={{ color: "white" }}>I may miss out call, you will get all HR details here,  please drop a mail </span>
                 <Type />
                 <br />
                 <br />
