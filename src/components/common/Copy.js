@@ -14,4 +14,3 @@ export default function CopyExample() {
         setCopySuccess('Copied!');
     };
 }
-export default Copy;
