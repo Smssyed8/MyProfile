@@ -16,7 +16,7 @@ import { ImPointRight } from "react-icons/im";
 
 function Home() {
   const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
-  const cal = 'https://calendly.com/s-muazzam-siddiqhi'
+  const cal = 'https://calendar.ai/syedmuazzamsiddiqhi'
   const dwn = 'https://docs.google.com/document/d/1XvIdphkNLPkICvHjXUbf2pneT9tc472I/edit?usp=sharing&ouid=112689532247814358148&rtpof=true&sd=true'
   return (
     <section>
