@@ -88,20 +88,47 @@ function Home() {
                       <br />
                       <ImPointRight /><span className="purple"> Relevant years</span><br />
                       Java 1.7, 1.8 -`{'>'}` 6 years<br />
-                     Spring Boot and microservices -> 2 years<br />
+                      Spring Boot and microservices -`{'>'}` 2 years<br />
                       Database/PlSql/Sql -`{'>'}` 3 years<br />
                       RestFul Api -`{'>'}` 3 years<br /><br />
-                      ################################<br />
-                      Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template.
+                      <ImPointRight /><span className="purple"> Also Know</span>
+                      -`{'>'}` PostgreSQL, Birt report, MongoDB, Apache camel,
+                      Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template.
                       <br /><br />
-                      Personal details
+                      <ImPointRight /><span className="purple"> Personal Details</span>
                     </p>
                     <ul>
+                      <br />
+                      <ImPointRight /><span className="purple"> Contact</span>
                       <li className="about-activity">
-                        <ImPointRight /> Email: s.muazzam.siddiqhi@gmail.com
+                        <ImPointRight /> Email: s.muazzam.siddiqhi @gmail.com
                       </li>
                       <li className="about-activity">
                         <ImPointRight /> Phone: +918951631056
+                      </li>
+
+                      <ImPointRight /><span className="purple"> Education</span>
+                      <li className="about-activity">
+                        <ImPointRight /> Bachelor of Engineering in Computer Science - 2015 - 60%
+                        <ImPointRight /> 2nd PU - 2011 - 62%
+                        <ImPointRight /> 10th - 2009 - 93.92%
+                      </li>
+                      <ImPointRight /><span className="purple"> Location</span>
+                      <li className="about-activity">
+                        <ImPointRight /> Native and work location : Mysore
+                        <ImPointRight /> Ready to Relocate : yes
+                        <ImPointRight /> Preferred location : Anywhere outside India
+                        <ImPointRight /> Preferred location in India : Bangalore
+                      </li>
+                      <ImPointRight /><span className="purple"> Worked in</span>
+                      <li className="about-activity">
+                        <ImPointRight /> Arisglobal : 4 years
+                        <ImPointRight /> White Clarke Group, acquired by Ids group, now renamed to Solifi : 2 years
+                      </li>
+                      <ImPointRight /><span className="purple"> Skillset</span>
+                      <li className="about-activity">
+                        <ImPointRight /> Main Skills/Ready for interview : Java 1.7,8, Spring, Spring Boot, Microservices, Rest Api, Oracle Plsql, Design Patterns, Algorithms, DataStructures
+                        <ImPointRight /> Also worked on but not prepared for Interview : Soap, Docker, Drools, Vm Template, Birt report, PostgreSql, MongoDb, Nodejs, React, Javascript
                       </li>
                       <li className="about-activity">
                         <ImPointRight /> Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm.
