@@ -544,6 +544,7 @@ display: inline;}
 }
 
 .btn-primary {
+  margin-left: 10px;
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
