@@ -21,11 +21,16 @@ return (
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
+        <Row>
+           <Col md={5} xs={12}  sm={12} style={{ paddingBottom: 20, position: "absolute" }}>
+        <div className="developer-animation" >
+        <Tilt><DeveloperAnimation /></Tilt>
+        </div>
+              
+
+            </Col>
             <Col  xs={12}  className="home-header1">
-            <div className="developer-animation" >
-                  <Tilt><DeveloperAnimation /></Tilt>
-                  </div>
+
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There! <span className="wave">👋🏻</span>
               </h1>
@@ -63,11 +68,7 @@ return (
              
             </Col>
 
-            <Col md={5} xs={12}  sm={12} style={{ paddingBottom: 20 }}>
-      
-              
-
-            </Col>
+           
     <Col  xs={12}  className="home-header">
 <Card className="quote-card-view">
       <Card.Body>
