@@ -23,7 +23,7 @@ function Home() {
         <Container className="home-content">
 
           <Row>
-            <Col md={5} xs={12} sm={12} style={{ paddingBottom: 20, position: "absolute" }}>
+            <Col md={5} xs={12} sm={12} style={{ paddingBottom: 20, position: "absolute", display: flex }}>
               <div className="developer-animation" >
                 <Tilt><DeveloperAnimation /></Tilt>
               </div>
@@ -57,7 +57,7 @@ function Home() {
                     </Button>
                     <br />
                     <br />
-                    <Button variant="" class="action_btn " href={cal} target="_blank">
+                    <Button variant="primary" class="action_btn " href={cal} target="_blank">
                       <AiOutlineDownload />
                       &nbsp;My Calendar
                     </Button>
