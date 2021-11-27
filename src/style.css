@@ -259,13 +259,13 @@ html {
 }
 
 .home-header {
-  padding-top: 30px !important;
-  max-width: 48.333333%;
+  padding-top: 10px !important;
+  max-width: 100%;
 }
 
 .home-header1 {
- padding-top: 30px !important;
-  max-width: 33.333333%;
+  max-width: 100%;
+  font-size: 70%;
 }
 
 .home-section {

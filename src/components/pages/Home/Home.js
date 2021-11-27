@@ -23,6 +23,13 @@ return (
       <Container className="home-content">
         
         <Row>
+            <Col md={5} xs={12}  sm={12} style={{ paddingBottom: 20, position: "absolute" }}>
+        <div className="developer-animation" >
+        <Tilt><DeveloperAnimation /></Tilt>
+        </div>
+              
+
+            </Col>
             <Col  xs={12}  className="home-header1">
 
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -64,13 +71,7 @@ return (
 
           </Row>
         <Row>
-           <Col md={5} xs={12}  sm={12} style={{ paddingBottom: 20, position: "absolute" }}>
-        <div className="developer-animation" >
-        <Tilt><DeveloperAnimation /></Tilt>
-        </div>
-              
-
-            </Col>
+         
           
            
     <Col  xs={12}  className="home-header">
