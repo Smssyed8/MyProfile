@@ -21,8 +21,7 @@ function Home() {
   return (
     <section>
       <Container fluid style={{
-        paddingLeft: 2,
-        display: "block"
+        paddingLeft: 2
       }} className="home-section" id="home">
         <Particle />
         <Container className="home-content">
