@@ -22,7 +22,7 @@ return (
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col  xs={12}  className="home-header">
+            <Col  xs={12}  className="home-header1">
 
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There! <span className="wave">👋🏻</span>
