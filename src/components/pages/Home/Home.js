@@ -48,7 +48,7 @@ function Home() {
                 <br />
                 <br />
                 <br />
-                <Row>
+                <Row style={{ display: "block" }}>
                   <div class="buttons">
 
                     <div class="action_btn">
@@ -57,7 +57,7 @@ function Home() {
                         &nbsp; Get Résumé
                       </Button>
 
-                      <Button variant="primary" class="action_btn " href={cal} target="_blank">
+                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5 }} href={cal} target="_blank">
                         <AiOutlineDownload />
                         &nbsp; My Calendar
                       </Button>
