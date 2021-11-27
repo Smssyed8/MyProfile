@@ -17,6 +17,7 @@ import { ImPointRight } from "react-icons/im";
 function Home() {
   const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
   const cal = 'https://calendly.com/s-muazzam-siddiqhi'
+  const cal = 'https://docs.google.com/document/d/1XvIdphkNLPkICvHjXUbf2pneT9tc472I/edit?usp=sharing&ouid=112689532247814358148&rtpof=true&sd=true'
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -63,9 +64,10 @@ function Home() {
                         &nbsp; My Calendar
                       </Button>
 
-                      <Button onClick={() => window.clipboardData.setData("Text", 'Copy this text to clipboard')}>Copy</Button>
-
-
+                      <Button variant="primary" class="action_btn " style={{ paddingLeft: 5 }} href={dwn} target="_blank">
+                        <AiOutlineDownload />
+                        &nbsp; Download Below Details
+                      </Button>
                     </div>
                   </div>
                 </Row>
