@@ -8,7 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
-  const calendly = 'https://calendly.com/s-muazzam-siddiqhi'
+  const calendly = 'https://calendar.ai/syedmuazzamsiddiqhi'
 
   return (
     <Container fluid className="resume-section">
