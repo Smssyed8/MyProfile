@@ -118,8 +118,8 @@ function Home() {
                       </li>
                       <ImPointRight /><span className="purple"> Personal</span>
                       <li className="about-activity">
-                        <ImPointRight /> Married?:yes
-                        <ImPointRight /> Reason For change?:carrier growth
+                        <li className="about-activity"><ImPointRight /> Married?:yes</li>
+                        <li className="about-activity"><ImPointRight /> Reason For change?:carrier growth</li>
                       </li>
                       <span className="purple"> Education</span>
                       <li className="about-activity">
