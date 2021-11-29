@@ -16,7 +16,7 @@ import { ImPointRight } from "react-icons/im";
 
 function Home() {
   const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
-  const cal = 'https://calendar.ai/syedmuazzamsiddiqhi'
+  const cal = 'https://calendar.ai/syed'
   const dwn = 'https://docs.google.com/document/d/1XvIdphkNLPkICvHjXUbf2pneT9tc472I/edit?usp=sharing&ouid=112689532247814358148&rtpof=true&sd=true'
   return (
     <section>
@@ -110,12 +110,17 @@ function Home() {
                     <ul>
                       <ImPointRight /><span className="purple"> Contact</span>
                       <li className="about-activity">
-                        <ImPointRight /> Email: s.muazzam.siddiqhi @gmail.com
+                        <ImPointRight /> Email: s.muazzam.siddiqhi@gmail.com
                       </li>
                       <li className="about-activity">
                         <ImPointRight /> Phone: +918951631056
-                      </li>
 
+                      </li>
+                      <ImPointRight /><span className="purple"> Personal</span>
+                      <li className="about-activity">
+                        <ImPointRight /> Married?:yes
+                        <ImPointRight /> Reason For change?:carrier growth
+                      </li>
                       <span className="purple"> Education</span>
                       <li className="about-activity">
                         <li className="about-activity"><ImPointRight /> Bachelor of Engineering in Computer Science - 2015 - 60%</li>
