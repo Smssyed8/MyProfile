@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../../common/Particle";
-import Resumecontent from "./ResumeContent";
-import axios from "axios";
+import ResumeContent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -30,100 +29,69 @@ function Resume() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Col md={9} className="resume-center">
-            <h3 className="resume-head">Required details in short</h3>
-            <Resumecontent
-              title="Total Years of experience"
-              content={["6 years of Experience in Software Development following Agile.",
-                "Worked in Arisglobal for 4 years, White clarke now called Solifi for 2 years"
-              ]}
-            />
-            <Resumecontent
-              title="Relevant years"
-              content={["Java 1.7, 1.8  ->  6 years",
-                "Spring Boot and microservices  ->  2 years",
-                "Database/PlSql/Sql  ->  3 years",
-                "RestFul Api  ->  3 years",
-                "################################",
-                "Experienced In backend software application development with Java, Spring boot, Microservices, Oracle SQL, PostgreSQL, Restful Architecture, Birt report, MongoDB, Apache camel, Apache ActiveMQ, Javascript, Docker, Teamcity, DS, Vm Template."
-              ]} />
-            <Resumecontent
-              title="My Details"
-              content={["Email: s.muazzam.siddiqhi@gmail.com",
-                "Phone: +918951631056",
-                "Availability: I may miss phone call, please drop a mail, you can schedule meeting directly after 3 pm.",
-                "Resume:  Latest attached here, please download",
-                "Need more details?: Request you to drop a mail",
-                "I am serving notice period: Last working day is Jan 19th 2022",
-              ]}
-            />
-            <Resumecontent
-              title="Education and passed year"
-              content={["Have done Bachelor of Engineering in Computer Science - 2015 passed"
+            <ResumeContent
+              title="Summary"
+              content={[
+                "Experienced Developer with a strong focus on backend applications. Proficient in Java 8, 9, and 11, J2EE, and JavaScript. Skilled in frameworks such as Spring Boot, Microservices, Apache Camel, and ActiveMQ. Expertise in RESTful Web services/ APIs, GraphQL APIs, Swagger, and SQL (Oracle SQL, PostgreSQL, MySQL) and NoSQL (MongoDB) databases. Experienced in Docker, TeamCity, GitHub, and DevOps principles. Proficient in Kibana and Elastic Search, MQ, Grafana. Committed to Agile methodologies, software development best practices and driving continuous improvement through CI/CD practices. Knowledgeable in test automation using TestNG and Selenium. Additionally, good in frontend with React, Artemis, Linux, JSON, InfluxDB, Cypress, Mockito, unit testing, VM Template, Python script, Git, Scrum, and Jenkins. Developed backend software for both consumer-facing like customer, dealer portal and internal products, including user, fleet management, dealer management tools. Hands-on with backend experience. Curious and open-minded person striving continuously to develop your skillsets. I am eager to develop a T-shaped profile by deepening and broadening my expertise. Self-motivated and keen on networking for technical collaboration. Recipient of a Delivery Excellence award for consistently delivering highly reliable, flexible, and scalable solutions. Certified AWS Developer Associate. Dedicated to delivering reliable solutions tailored to meet business-specific needs."
               ]}
             />
           </Col>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Col md={6} className="resume-left">
-            <h3 className="resume-head">Experience</h3>
-            <Resumecontent
-              title="White Clarke Group acquired by IDS infotech and now renamed as Solifi  "
-              date="Jan 2020 - Present"
-              content={[
-                "Projects: Core platform.",
-                "Changed Restful Webservices integration to Amazon SQS Integration to use the producer-consumer methodology. UI changes and validations on basic ReactsJs",
-                "Part of, Platform Development, globally distributed team with startup environment, Achieved validation through drools rule engine. Parsed JSON to browser UI on Node framework.",
-                "Have contributed for the Test Automation of project on selenium. "
-              ]}
-            />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-head">Experience</h3>
-            <Resumecontent
-              title="Arisglobal is the biggest and leading mid tier life sciences Product development company."
-              date="2015 – 2019"
-              content={[
-                "Projects: Clinical, Susar, Publisher, Siteportal, DMS, RIMS integration, CTMS.",
-                "Implemented API integrations via Restful Webservices architecture, WSDL, microservices. Created Efficient Birt reports. Mentored 3 developers. Developed customer focus Efficient validator for rules defined by FDA, Hyperlinks and bookmarks for documents on Pdfjs. ",
-                "Implemented web edit feature for pdf document similar to Adobe. Created Esign feature, Document management web technology. Increased the code maintainability and flexibility by different data structures, algorithms, design patterns and Multithreading.",
-                "Conceptualized POCs for Risk-Based Monitoring by the rule engine fundamentals, hybrid application. Technical leadership in System Design, the business logic of Pdf edit and rule validation. Worked with globally distributed teams on distributed systems in a collaborative way. Excellent interpersonal skills, good with people, ability to negotiate"
-
-              ]}
-            />
-          </Col>
-        </Row>
-
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Col md={9} className="resume-center">
-            <h3 className="resume-head">Education</h3>
-            <Resumecontent
-              title="Bachelor of Engineering in Computer Science"
-              date="2015"
-              content={["Pestim Shimoga, affiliated to Visvesvaraya Technological University Belgaum"]}
-            />
-            <Resumecontent
-              title="Certifications"
+            <ResumeContent
+              title="Skills"
               content={[
-                "Please find it on Linkedin"
+                "Programming Languages: Java (Java 8, 9, 11, 17), J2EE, JavaScript, Node.js.",
+                "Frameworks and Technologies: Spring Boot, Microservices, Apache Camel, Apache ActiveMQ, RESTful Web services/ APIs, GraphQL APIs, Swagger, SOAP, Birt Report, Velocity Template, HTML, Artemis, JSON, AsposeJs, SpringBoot.",
+                "Testing and Automation: JUnit, Selenium, TestNG, Cypress, Cucumber, Mockito.",
+                "Databases: SQL (Oracle SQL, PostgreSQL, MySQL) and NoSQL (MongoDB) databases.",
+                "DevOps: Docker, TeamCity, GitHub, Gerrit, Bitbucket, Git, Sonar, Maven, Jira, Linux.",
+                "Agile Development: Scrum, Agile Methodologies, Kanban.",
+                "CI/CD: Continuous Integration/Continuous Deployment principles, Jenkins.",
+                "Cloud: AWS, cloud native services.",
+                "Learning: Kubernetes, Kafka as event streaming platform, ArgoCD, Jaeger, and Prometheus.",
+                "Others: Kibana and Elastic Search for observability, Multithreading, Asynchronous programming, Solid Design Principles, Design Patterns, Data Structures and Algorithms, Agile (SAFE) methodologies, Scrum, Drools, JavaScript, AWS (EC2, S3), Jenkins, Batch processing, Grafana, InfluxDB, Test-driven Development, Saas, JPA, MVC, MQ, Maven, React, NodeJs.",
+                "Language: Proficient in English, Applied for Swedish classes at SFI."
               ]}
             />
           </Col>
         </Row>
-
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Col md={9} className="resume-center">
-            <h3 className="resume-head">SkillSet</h3>
-            <Resumecontent
-              title="Main Skills"
-              content={["Java, Java 8, J2EE, JavaScript. Oracle SQL, PostgreSQL, MongoDB, Restful Webservices."]}
-            />
-            <Resumecontent
-              title="Also having knowledge on, but not prepared for interview"
-              content={["Nodejs, Apache Camel, Apache ActiveMQ, Spring Boot, Microservices, GitHub, Soap, Docker, Birt Report, Velocity Template, Html, Analytics, Design Implementation, Algorithm design, Frameworks, Drools, Algo, Junit Testing, Sonar, Maven, Jira, Linux, Motivated, flexible."]}
+            <ResumeContent
+              title="Experience"
+              content={[
+                "Senior Software Engineer, Volvo Group - Presis Konsult, 2022 – Present",
+                "Projects: Volvo Group Connected Solution, Customer Portal and Customer Fleet Management.",
+                "Senior Software Engineer, Arisglobal-Nordic Capital, 2015 – 2019",
+                "Projects: Core Platform, Customer and Dealer Management System, Invoice, and Insurance."
+              ]}
             />
           </Col>
         </Row>
-
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Col md={9} className="resume-center">
+            <ResumeContent
+              title="Education"
+              content={[
+                "Bachelor of Engineering in Computer Science, Visvesvaraya Technological University, PESITM, India, Jul 2011 - May 2015."
+              ]}
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Col md={9} className="resume-center">
+            <ResumeContent
+              title="Honors & Awards"
+              content={[
+                "AWS Developer Associate Certificate",
+                "LinkedIn And Udemy Certifications: Java, Solid principles, Spring.",
+                "Received Delivery Excellence award for extraordinary performance among a team of 80 people. Recognized with Excel in Living up to Values award at Arisglobal."
+              ]}
+            />
+          </Col>
+        </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />&nbsp;Get Résumé
