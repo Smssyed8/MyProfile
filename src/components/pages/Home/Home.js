@@ -8,9 +8,9 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { ImPointRight } from "react-icons/im";
 
 function Home() {
-  const pdf = 'https://drive.google.com/file/d/1Ec4AsVgU2bt_ZCTH8jWUN1ikW7U5dY01/view?usp=sharing'
-  const cal = 'https://calendar.ai/syed'
-  const dwn = 'https://drive.google.com/file/d/1Ec4AsVgU2bt_ZCTH8jWUN1ikW7U5dY01/view?usp=sharing'
+  const pdf = 'https://drive.google.com/file/d/1Ec4AsVgU2bt_ZCTH8jWUN1ikW7U5dY01/view?usp=sharing';
+  const cal = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2Evy4T8_z7kXdwzntZI_JEeiMGc7PSu7d8D8XSHcNluBvCGjx_57Zj2CJkxCtqo4az3_9m98MI?gv=true';
+  const dwn = 'https://drive.google.com/file/d/1Ec4AsVgU2bt_ZCTH8jWUN1ikW7U5dY01/view?usp=sharing';
 
   return (
     <section>
@@ -45,7 +45,6 @@ function Home() {
     </Button>
   </Col>
 </Row>
-
               </div>
               <br />
             </Col>
@@ -90,17 +89,7 @@ function Home() {
               <h3 className="quote-header">Skills</h3>
               <div className="quote-card-view">
                 <ul>
-                  <li><ImPointRight /> Programming Languages: Java (Java 8, 9, 11, 17), J2EE, JavaScript, Node.js.</li>
-                  <li><ImPointRight /> Frameworks and Technologies: Spring Boot, Microservices, Apache Camel, Apache ActiveMQ, RESTful Web services/ APIs, GraphQL APIs, Swagger, SOAP, Birt Report, Velocity Template, HTML, Artemis, JSON, AsposeJs, SpringBoot.</li>
-                  <li><ImPointRight /> Testing and Automation: JUnit, Selenium, TestNG, Cypress, Cucumber, Mockito.</li>
-                  <li><ImPointRight /> Databases: SQL (Oracle SQL, PostgreSQL, MySQL) and NoSQL (MongoDB) databases.</li>
-                  <li><ImPointRight /> DevOps: Docker, TeamCity, GitHub, Gerrit, Bitbucket, Git, Sonar, Maven, Jira, Linux.</li>
-                  <li><ImPointRight /> Agile Development: Scrum, Agile Methodologies, Kanban.</li>
-                  <li><ImPointRight /> CI/CD: Continuous Integration/Continuous Deployment principles, Jenkins.</li>
-                  <li><ImPointRight /> Cloud: AWS, cloud native services.</li>
-                  <li><ImPointRight /> Learning: Kubernetes, Kafka as event streaming platform, ArgoCD, Jaeger, and Prometheus.</li>
-                  <li><ImPointRight /> Others: Kibana and Elastic Search for observability, Multithreading, Asynchronous programming, Solid Design Principles, Design Patterns, Data Structures and Algorithms, Agile (SAFE) methodologies, Scrum, Drools, JavaScript, AWS (EC2, S3), Jenkins, Batch processing, Grafana, InfluxDB, Test-driven Development, Saas, JPA, MVC, MQ, Maven, React, NodeJs.</li>
-                  <li><ImPointRight /> Language: Proficient in English, Applied for Swedish classes at SFI.</li>
+                  {/* Skills content */}
                 </ul>
               </div>
             </Col>
@@ -110,11 +99,22 @@ function Home() {
               <h3 className="quote-header">Contact Information</h3>
               <div className="quote-card-view">
                 <ul>
-                  <li><ImPointRight /> Email: Syed.eu.my@gmail.com</li>
-                  <li><ImPointRight /> Phone: (+46) 764423777</li>
-                  <li><ImPointRight /> Location: Gothenburg, Sweden</li>
-                  <li><ImPointRight /> Portfolio: <a href="https://syedms.netlify.app/">https://syedms.netlify.app/</a></li>
+                  {/* Contact information content */}
                 </ul>
+              </div>
+            </Col>
+          </Row>
+          {/* Embed the Google Calendar here */}
+          <Row>
+            <Col xs={12} className="home-header">
+              <h3 className="quote-header">Book an Appointment</h3>
+              <div className="quote-card-view">
+                <iframe
+                  src={cal}
+                  style={{ border: 0, width: "100%", height: 600 }}
+                  frameborder="0"
+                  title="Google Calendar Appointment Scheduling"
+                ></iframe>
               </div>
             </Col>
           </Row>
