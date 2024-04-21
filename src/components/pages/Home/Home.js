@@ -62,19 +62,17 @@ function Home() {
                     <br />
                     <br />
                     <ImPointRight /><span className="purple">Relevant Skills:</span><br />
-                    Java 1.7, 1.8 -&gt; 8 years<br />
-                    Spring Boot and Microservices -&gt; 2 years<br />
-                    Database/PlSql/Sql -&gt; 3 years<br />
-                    RestFul Api -&gt; 3 years<br />
+                    Java 8, 9, 11, Spring Boot, Microservices, RESTful Web Services, PostgreSQL, MongoDB, Docker, TeamCity, Kubernetes, Kafka, Linux.
+                    <br />
                     <br />
                     <ImPointRight /><span className="purple">Additional Skills:</span><br />
-                    PostgreSQL, Birt report, MongoDB, Apache Camel, Apache ActiveMQ, JavaScript, Docker, TeamCity, Data Structures, VM Template.
+                    Apache Camel, Apache ActiveMQ, JavaScript, HTML, TypeScript, React, Maven, Selenium, JUnit, Git.
                     <br />
                     <br />
                     <ImPointRight /><span className="purple">Personal Details:</span><br />
                     <ul>
-                      <li>Email: syed.eu.my@gmail.com</li>
-                      <li>Phone: +46764423777 / +918951631056</li>
+                      <li>Email: s.muazzam.siddiqhi@gmail.com</li>
+                      <li>Phone: +918951631056</li>
                       <li>Marital Status: Married</li>
                       <li>Reason For Change: Career Growth</li>
                     </ul>
