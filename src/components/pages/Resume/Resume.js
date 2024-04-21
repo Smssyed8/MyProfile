@@ -6,7 +6,7 @@ import ResumeContent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const pdf = 'https://drive.google.com/file/d/1trsOB4sbv5gKRQp-bzmmFYhwvPZfBC0g/view?usp=sharing'
+  const pdf = 'https://drive.google.com/file/d/1Ec4AsVgU2bt_ZCTH8jWUN1ikW7U5dY01/view?usp=sharing'
   const calendly = 'https://calendar.ai/syed'
 
   return (
