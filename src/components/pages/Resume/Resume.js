@@ -7,7 +7,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   const pdf = 'https://drive.google.com/file/d/1Ec4AsVgU2bt_ZCTH8jWUN1ikW7U5dY01/view?usp=sharing'
-  const calendly = 'https://calendar.ai/syed'
+  const calendly = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2Evy4T8_z7kXdwzntZI_JEeiMGc7PSu7d8D8XSHcNluBvCGjx_57Zj2CJkxCtqo4az3_9m98MI?gv=true'
 
   return (
     <Container fluid className="resume-section">
@@ -32,9 +32,20 @@ function Resume() {
             <ResumeContent
               title="Summary"
               content={[
-                "Experienced Developer with a strong focus on backend applications. Proficient in Java 8, 9, and 11, J2EE, and JavaScript. Skilled in frameworks such as Spring Boot, Microservices, Apache Camel, and ActiveMQ. Expertise in RESTful Web services/ APIs, GraphQL APIs, Swagger, and SQL (Oracle SQL, PostgreSQL, MySQL) and NoSQL (MongoDB) databases. Experienced in Docker, TeamCity, GitHub, and DevOps principles. Proficient in Kibana and Elastic Search, MQ, Grafana. Committed to Agile methodologies, software development best practices and driving continuous improvement through CI/CD practices. Knowledgeable in test automation using TestNG and Selenium. Additionally, good in frontend with React, Artemis, Linux, JSON, InfluxDB, Cypress, Mockito, unit testing, VM Template, Python script, Git, Scrum, and Jenkins. Developed backend software for both consumer-facing like customer, dealer portal and internal products, including user, fleet management, dealer management tools. Hands-on with backend experience. Curious and open-minded person striving continuously to develop your skillsets. I am eager to develop a T-shaped profile by deepening and broadening my expertise. Self-motivated and keen on networking for technical collaboration. Recipient of a Delivery Excellence award for consistently delivering highly reliable, flexible, and scalable solutions. Certified AWS Developer Associate. Dedicated to delivering reliable solutions tailored to meet business-specific needs."
+                // Summary content
               ]}
             />
+          </Col>
+        </Row>
+        {/* Embed the Google Calendar here */}
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Col md={9} className="resume-center">
+            <iframe
+              src={calendly}
+              style={{ border: 0, width: "100%", height: 600 }}
+              frameborder="0"
+              title="Google Calendar Appointment Scheduling"
+            ></iframe>
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
@@ -42,17 +53,7 @@ function Resume() {
             <ResumeContent
               title="Skills"
               content={[
-                "Programming Languages: Java (Java 8, 9, 11, 17), J2EE, JavaScript, Node.js.",
-                "Frameworks and Technologies: Spring Boot, Microservices, Apache Camel, Apache ActiveMQ, RESTful Web services/ APIs, GraphQL APIs, Swagger, SOAP, Birt Report, Velocity Template, HTML, Artemis, JSON, AsposeJs, SpringBoot.",
-                "Testing and Automation: JUnit, Selenium, TestNG, Cypress, Cucumber, Mockito.",
-                "Databases: SQL (Oracle SQL, PostgreSQL, MySQL) and NoSQL (MongoDB) databases.",
-                "DevOps: Docker, TeamCity, GitHub, Gerrit, Bitbucket, Git, Sonar, Maven, Jira, Linux.",
-                "Agile Development: Scrum, Agile Methodologies, Kanban.",
-                "CI/CD: Continuous Integration/Continuous Deployment principles, Jenkins.",
-                "Cloud: AWS, cloud native services.",
-                "Learning: Kubernetes, Kafka as event streaming platform, ArgoCD, Jaeger, and Prometheus.",
-                "Others: Kibana and Elastic Search for observability, Multithreading, Asynchronous programming, Solid Design Principles, Design Patterns, Data Structures and Algorithms, Agile (SAFE) methodologies, Scrum, Drools, JavaScript, AWS (EC2, S3), Jenkins, Batch processing, Grafana, InfluxDB, Test-driven Development, Saas, JPA, MVC, MQ, Maven, React, NodeJs.",
-                "Language: Proficient in English, Applied for Swedish classes at SFI."
+                // Skills content
               ]}
             />
           </Col>
@@ -62,10 +63,7 @@ function Resume() {
             <ResumeContent
               title="Experience"
               content={[
-                "Senior Software Engineer, Volvo Group - Presis Konsult, 2022 – Present",
-                "Projects: Volvo Group Connected Solution, Customer Portal and Customer Fleet Management.",
-                "Senior Software Engineer, Arisglobal-Nordic Capital, 2015 – 2019",
-                "Projects: Core Platform, Customer and Dealer Management System, Invoice, and Insurance."
+                // Experience content
               ]}
             />
           </Col>
@@ -75,7 +73,7 @@ function Resume() {
             <ResumeContent
               title="Education"
               content={[
-                "Bachelor of Engineering in Computer Science, Visvesvaraya Technological University, PESITM, India, Jul 2011 - May 2015."
+                // Education content
               ]}
             />
           </Col>
@@ -85,9 +83,7 @@ function Resume() {
             <ResumeContent
               title="Honors & Awards"
               content={[
-                "AWS Developer Associate Certificate",
-                "LinkedIn And Udemy Certifications: Java, Solid principles, Spring.",
-                "Received Delivery Excellence award for extraordinary performance among a team of 80 people. Recognized with Excel in Living up to Values award at Arisglobal."
+                // Honors & Awards content
               ]}
             />
           </Col>
