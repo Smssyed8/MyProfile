@@ -29,24 +29,23 @@ function Home() {
               <div className="main-name">
                 <p>Scroll below and copy the details</p>
                 <Type />
-                <Row>
-                  <div class="buttons">
-                    <div class="action_btn">
-                      <Button variant="primary" class="action_btn" href={pdf} target="_blank">
-                        <AiOutlineDownload />
-                        &nbsp; Get Résumé
-                      </Button>
-                      <Button variant="primary" class="action_btn" href={cal} target="_blank">
-                        <AiOutlineDownload />
-                        &nbsp; My Calendar
-                      </Button>
-                      <Button variant="primary" class="action_btn" href={dwn} target="_blank">
-                        <AiOutlineDownload />
-                        &nbsp; Download Below Details
-                      </Button>
-                    </div>
-                  </div>
-                </Row>
+               <Row>
+  <Col className="d-flex justify-content-center">
+    <Button variant="primary" class="action_btn" href={pdf} target="_blank">
+      <AiOutlineDownload />
+      &nbsp; Get Résumé
+    </Button>
+    <Button variant="primary" class="action_btn" href={cal} target="_blank">
+      <AiOutlineDownload />
+      &nbsp; My Calendar
+    </Button>
+    <Button variant="primary" class="action_btn" href={dwn} target="_blank">
+      <AiOutlineDownload />
+      &nbsp; Download Below Details
+    </Button>
+  </Col>
+</Row>
+
               </div>
               <br />
             </Col>
