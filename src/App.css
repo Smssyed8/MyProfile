@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.resume-section {
+  padding: 20px;
+}
+
+.resume-left,
+.resume-right,
+.resume-center {
+  padding: 20px;
+}
+
+.resume-head {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.resume-content {
+  margin-bottom: 20px;
+}
+
